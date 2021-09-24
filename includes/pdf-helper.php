@@ -2,9 +2,9 @@
 
 
 //require_once('tcpdf/config/lang/eng.php');
-require_once('tcpdf/tcpdf.php');
+//require_once('tcpdf/tcpdf.php');
 
-class awesome_pdf extends tcpdf
+class awesome_pdf extends \TCPDF
 {
 	private $pdf_data;
 	
